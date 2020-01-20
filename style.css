@@ -1,0 +1,144 @@
+*/html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-size:100%;
+  font-weight:normal;
+}
+
+ul{
+  list-style:none;
+}
+
+button,input,select,textarea{
+  margin:0;
+}
+
+html{
+  box-sizing:border-box;
+}
+
+*,*::before,*::after{
+  box-sizing:inherit;
+}
+
+img,video{
+  height:auto;
+  max-width:100%;
+}
+
+iframe{
+  border:0;
+}
+
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+td,th{
+  padding:0;
+}
+
+td:not([align]),th:not([align]){
+  text-align:left;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.nav-bar {
+  position: relative;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.nav-section {
+  margin: 0 auto;
+  max-width: 1605px;
+  background: transparent;
+  border-bottom: 0;
+  padding: 4px 15px 2px;
+}
+
+.fa-bars, .fa-search {
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 11px;
+  font-weight: 500;
+  margin: 8px 9px 9px;
+}
+
+.sp-cos-text {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-around;
+  left: 10px;
+  position: absolute;
+}
+
+.NYT-Logo {
+  width: 195px;
+  height: 26px;
+  margin: 6px auto 0;
+}
+
+.logo-container {
+  text-align: center;
+  padding-top: 0;
+}
+
+.space-cosmos {
+  display: block;
+  position: absolute;
+  left: 105px;
+  line-height: 19px;
+  top: 10px;
+}
+
+.subscribe-container {
+  top: 4px;
+  right: 10px;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+}
+
+.subscribe-button, .login-button {
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 11px 12px 8px;
+}
+
+.subscribe-link, .login-link {
+  display: inline-block;
+  margin-right: 7px;
+}
