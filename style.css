@@ -385,3 +385,127 @@ aside h2{
   width: 70px;
   margin: 20px auto;
 }
+
+.inflation-article {
+  margin: 0 auto;
+  width: 945px;
+}
+
+.title-article {
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.title-text {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.description-text {
+  border-top: none;
+  padding-top: 0;
+  font-size: .875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.inflation-picture {
+  position: relative;
+}
+
+.theory-of-inflation {
+  position: relative;
+  overflow: hidden;
+  width: 945px;
+  display: block;
+}
+
+.p {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #000000;
+  position: absolute;
+  width: 200px;
+}
+
+.p1 {
+  top: 24.8264%;
+  left: 0.0436%;
+}
+
+.p2 {
+  top: 24.8264%;
+  left: 25.5619%;
+}
+
+.p3 {
+  top: 24.8264%;
+  left: 51.0800%;
+}
+
+.p4 {
+  top: 24.8264%;
+  left: 76.5982%;
+}
+
+.p5 {
+  top: 73.4375%;
+  left: 0.0436%;
+}
+
+.p6 {
+  top: 73.4375%;
+  left: 25.5619%;
+}
+
+.p7 {
+  top: 73.4375%;
+  left: 51.0800%;
+}
+
+.p8 {
+  top: 73.4375%;
+  left: 76.5982%;
+}
+
+.grid-title {
+  font-weight: bold;
+}
+
+footer:before {
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background-color: #000;
+  margin-top: 30px;
+}
+
+footer {
+  margin-bottom: 0;
+  max-width: 945px;
+  margin-top: 24px;
+}
+
+.footer-container {
+  color: #333;
+}
+
+.footer-text {
+  font-size: .875rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+}
