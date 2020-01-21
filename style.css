@@ -6,10 +6,12 @@
 h1,h2,h3,h4,h5,h6{
   font-size:100%;
   font-weight:normal;
+  margin: 0;
 }
 
 ul{
   list-style:none;
+  padding: 0  ;
 }
 
 button,input,select,textarea{
@@ -252,7 +254,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap;  
 }
 
 .publish-date {
@@ -312,4 +314,74 @@ header {
   top: 923px;
   font-size: 0.55rem;
   right: 232px;
+}
+
+/* Article Section */
+
+article{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.article{
+  margin: 0 auto;
+  width: 600px;
+}
+
+.article p{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+aside{
+  float: right;
+  width: 210px;
+}
+
+aside h2{
+  font-size: 14px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 15px;
+  margin-top: 100%;
+}
+
+.editors-picks li{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.editors-picks a{
+  text-decoration: none;
+}
+
+.editors-picks img{
+  width: 75px;
+  float: left;
+  margin-right: 10px;
+}
+
+.editors-picks h3{
+  font-size: 14px;
+  color: #000000;
+}
+
+.create-account{
+  text-align: center;
+}
+
+.create-account p{
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
+}
+
+.create-account a{
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+}
+
+.create-account hr{
+  width: 70px;
+  margin: 20px auto;
 }
