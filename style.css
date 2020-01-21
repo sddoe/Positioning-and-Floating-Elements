@@ -342,7 +342,7 @@ aside h2{
   font-size: 14px;
   border-bottom: 1px solid rgb(226, 226, 226);
   padding-bottom: 15px;
-  margin-top: 100%;
+  margin-top: 130%;
 }
 
 .editors-picks li{
@@ -371,6 +371,7 @@ aside h2{
 
 .create-account p{
   font-size: 15px;
+  font-weight: bold;
   margin: 0;
   padding: 0;
   line-height: 1rem;
@@ -508,4 +509,54 @@ footer {
   line-height: 1.125rem;
   font-weight: 500;
   font-style: normal;
+}
+
+iframe{
+  width: 600px;
+  height: 357.5px;
+}
+
+article figure{
+  margin: 0 auto;
+  width: 720px;
+}
+
+article .video{
+  margin: 0 auto;
+  width: 600px;
+}
+
+article figure figcaption{
+  margin-top: 7px;
+  color: #666;
+  font-size: 17px;
+}
+
+figcaption .credit{
+  font-size: 14px;
+  color: #888;
+}
+
+.bottom-of-article{
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+  margin: 0px auto 1em;
+}
+
+.bottom-of-article a{
+  color: inherit;
+}
+
+.bottom-of-article a:hover{
+  text-decoration: none;
+}
+
+.read-comments{
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border-radius: 3px;
+  padding: 10px 0px;
+  border-width: 1px;
+  width: 330px;
 }
