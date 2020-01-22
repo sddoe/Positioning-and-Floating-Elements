@@ -895,3 +895,7 @@ figcaption .credit {
 .news-titles h3 a:hover {
   color: rgb(102, 102, 102);
 }
+
+.main-sections{
+  display: none;
+}
