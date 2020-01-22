@@ -1,54 +1,61 @@
 /* Reset CSS */
 
 blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,html,iframe,legend,li,ol,p,pre,textarea,ul {
-  margin:0;padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-size:100%;font-weight:400;margin:0;
+  font-size: 100%;
+  font-weight: 400;
+  margin: 0;
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 ul {
-  list-style:none;padding:0;margin:0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 button,input,select,textarea {
-  margin:0;
+  margin: 0;
 }
 
 html {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 *,::after,::before {
-  box-sizing:inherit;
+  box-sizing: inherit;
 }
 
 img,video {
-  height:auto;max-width:100%;
+  height: auto;
+  max-width: 100%;
 }
 
 iframe {
-  border:0;
+  border: 0;
 }
 
 table {
-  border-collapse:collapse;border-spacing:0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 td,th {
-  padding:0;
+  padding: 0;
 }
 
 td:not([align]),th:not([align]) {
-  text-align:left;
+  text-align: left;
 }
 
-/**Navigation Bar**/
+/* Navigation Bar */
 
 nav {
   position: fixed;
@@ -144,7 +151,7 @@ nav {
   margin-right: 7px;
 }
 
-/**Header**/
+/* Header */
 
 header {
   margin-top: 45px;
@@ -203,7 +210,7 @@ header {
 .photo-description {
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  margin: 0px 7px 0px 0px;
+  margin-right: 7px;
   color: #666;
 }
 
@@ -250,7 +257,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0;
-  flex-wrap: nowrap;  
+  flex-wrap: nowrap;
 }
 
 .publish-date {
@@ -354,7 +361,7 @@ aside h2 {
 
 .editors-picks h3 {
   font-size: 14px;
-  color: #000000;
+  color: #000;
 }
 
 .create-account {
@@ -427,7 +434,7 @@ aside h2 {
   font-size: 12px;
   line-height: 16px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
   position: absolute;
   width: 200px;
 }
@@ -518,7 +525,7 @@ article .video {
 }
 
 iframe {
-  border: 0px;
+  border: none;
 }
 
 article figure figcaption {
@@ -536,7 +543,7 @@ figcaption .credit {
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
-  margin: 0px auto 1em;
+  margin: 0 auto 1em;
 }
 
 .bottom-of-article a {
@@ -552,7 +559,8 @@ figcaption .credit {
   background-color: rgb(86, 123, 149);
   color: white;
   border-radius: 3px;
-  padding: 10px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-width: 1px;
   width: 330px;
 }
@@ -575,7 +583,8 @@ figcaption .credit {
 
 .news-titles h3 {
   border-bottom: 1px solid rgb(226, 226, 226);
-  padding: 15px 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .news-titles h3:last-child {
@@ -617,7 +626,7 @@ figcaption .credit {
 }
 
 .more-in-title a {
-  color: #000000;
+  color: #000;
 }
 
 .more-in-news-container {
@@ -793,7 +802,8 @@ figcaption .credit {
   border-top: 1px solid #ebebeb;
   padding-top: 9px;
   max-width: 1200px;
-  margin: 0px 8.5rem;
+  margin-right: 8.5rem;
+  margin-left: 8.5rem;
   font-size: 11px;
   text-align: center;
   padding-bottom: 45px;
@@ -830,7 +840,7 @@ figcaption .credit {
   padding: 18px 20px;
   margin: 0 auto;
   width: 1200px;
-  color: #000000;
+  color: #000;
 }
 
 .create-account-text svg {
