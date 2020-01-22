@@ -17,8 +17,7 @@ It shows you a static clone of [this](https://www.nytimes.com/2014/03/18/science
 #### and deployed to Raw Githack
 
 ## Live Demo
-[Live Demo](https://rawcdn.githack.com/tirthajyoti-ghosh/youtube-video-player-page/2f582c51182e4b27da9389144904b91569fec326/index.html
-)
+[Live Demo](https://rawcdn.githack.com/sddoe/Positioning-and-Floating-Elements/39452b8dda033d0d32645ff0e85d318d0a346ab2/index.html)
 
 ## 🤝 Contributing
 
@@ -36,11 +35,10 @@ Special thanks to [NYTimes](https://www.nytimes.com/)
 
 ## Authors
 
-👤 **Roman Nikolaev**
+👤 **Sergio Perdomo**
 
-- Github: [@vzdrizhni](https://github.com/vzdrizhni)
-- Twitter: [@metabruta](https://twitter.com/metabruta)
-- Linkedin: [roman-nikolaev](https://www.linkedin.com/in/roman-nikolaev-65b639197/)
+- Github: [@sddoe](https://github.com/sddoe)
+- Linkedin: [sergio-perdomo](https://www.linkedin.com/in/sergio-david-perdomo-rivera-07b6b7b8/)
 
 👤 **Tirthajyoti Ghosh**
 
