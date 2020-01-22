@@ -9,6 +9,10 @@ h1,h2,h3,h4,h5,h6{
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 ul{
   list-style:none;
   padding: 0  ;
@@ -85,7 +89,6 @@ nav {
 }
 
 .sp-cos-text {
-  text-decoration: none;
   color: black;
   font-weight: 700;
   text-transform: uppercase;
@@ -245,7 +248,6 @@ header {
 
 .name-link {
   display: inline;
-  text-decoration: none;
   color: #333;
 }
 
@@ -350,10 +352,6 @@ aside h2{
   margin-bottom: 15px;
 }
 
-.editors-picks a{
-  text-decoration: none;
-}
-
 .editors-picks img{
   width: 75px;
   float: left;
@@ -378,7 +376,6 @@ aside h2{
 }
 
 .create-account a{
-  text-decoration: none;
   color: rgb(50, 104, 145);
 }
 
@@ -546,6 +543,7 @@ figcaption .credit{
 
 .bottom-of-article a{
   color: inherit;
+  text-decoration: underline;
 }
 
 .bottom-of-article a:hover{
@@ -559,4 +557,114 @@ figcaption .credit{
   padding: 10px 0px;
   border-width: 1px;
   width: 330px;
+}
+
+/* More News Section */
+
+.most-popular{
+  width: 240px;
+  margin-left: 30px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  padding-bottom: 15px;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.most-popular h2{
+  margin-top: 0;
+}
+
+.news-titles h3{
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0px;
+}
+
+.news-titles h3:last-child{
+  border-bottom: none;
+}
+
+.news-titles h3 a{
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  font-weight: 500;
+  color: #121212;
+}
+
+.news-titles h3 a:hover{
+  color: rgb(102, 102, 102);
+}
+
+.more-news{
+  width: 1200px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 3% 0 3%;
+}
+
+.more-in-space-container{
+  width: 852px;
+}
+
+.more-in-title-container{
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.more-in-title{
+  font-size: 1rem;
+  line-height: 1.375rem;
+  padding-top: 17px;
+  font-weight: 900;
+}
+
+.more-in-title a{
+  color: #000000;
+}
+
+.more-in-news-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.more-in-news-container .more{
+  width: 273px;
+  padding-bottom: 20px;
+}
+
+.more figure{
+  width: 100%;
+}
+
+.more-in-news-container img{
+  width: 273px;
+  height: 182px;
+}
+
+.more figure figcaption{
+  margin-top: 3px;
+  font-size: 0.625rem;
+  padding-bottom: 4px;
+  text-align: right;
+}
+
+.more .title-news{
+  padding-right: 10px;
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: #121212;
+}
+
+.title-news:hover{
+  color: rgb(102, 102, 102);
+}
+
+.more .news-time{
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
 }
