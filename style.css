@@ -1,6 +1,52 @@
 /* Reset CSS */
 
-blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,html,iframe,legend,li,ol,p,pre,textarea,ul{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400;margin:0}a{text-decoration:none}ul{list-style:none;padding:0;margin:0}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
+blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,html,iframe,legend,li,ol,p,pre,textarea,ul {
+  margin:0;padding:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;font-weight:400;margin:0;
+}
+
+a {
+  text-decoration:none;
+}
+
+ul {
+  list-style:none;padding:0;margin:0;
+}
+
+button,input,select,textarea {
+  margin:0;
+}
+
+html {
+  box-sizing:border-box;
+}
+
+*,::after,::before {
+  box-sizing:inherit;
+}
+
+img,video {
+  height:auto;max-width:100%;
+}
+
+iframe {
+  border:0;
+}
+
+table {
+  border-collapse:collapse;border-spacing:0;
+}
+
+td,th {
+  padding:0;
+}
+
+td:not([align]),th:not([align]) {
+  text-align:left;
+}
 
 /**Navigation Bar**/
 
@@ -268,54 +314,54 @@ header {
 
 /* Article Section */
 
-article{
+article {
   margin: 0 auto;
   width: 1200px;
 }
 
-.article{
+.article {
   margin: 0 auto;
   width: 600px;
 }
 
-.article p{
+.article p {
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
 
-aside{
+aside {
   float: right;
   width: 210px;
 }
 
-aside h2{
+aside h2 {
   font-size: 14px;
   border-bottom: 1px solid rgb(226, 226, 226);
   padding-bottom: 15px;
   margin-top: 130%;
 }
 
-.editors-picks li{
+.editors-picks li {
   display: inline-block;
   margin-bottom: 15px;
 }
 
-.editors-picks img{
+.editors-picks img {
   width: 75px;
   float: left;
   margin-right: 10px;
 }
 
-.editors-picks h3{
+.editors-picks h3 {
   font-size: 14px;
   color: #000000;
 }
 
-.create-account{
+.create-account {
   text-align: center;
 }
 
-.create-account p{
+.create-account p {
   font-size: 15px;
   font-weight: bold;
   margin: 0;
@@ -323,11 +369,11 @@ aside h2{
   line-height: 1rem;
 }
 
-.create-account a{
+.create-account a {
   color: rgb(50, 104, 145);
 }
 
-.create-account hr{
+.create-account hr {
   width: 70px;
   margin: 20px auto;
 }
@@ -456,53 +502,53 @@ footer {
   font-style: normal;
 }
 
-iframe{
+iframe {
   width: 600px;
   height: 357.5px;
 }
 
-article figure{
+article figure {
   margin: 0 auto;
   width: 720px;
 }
 
-article .video{
+article .video {
   margin: 0 auto;
   width: 600px;
 }
 
-iframe{
+iframe {
   border: 0px;
 }
 
-article figure figcaption{
+article figure figcaption {
   margin-top: 7px;
   color: #666;
   font-size: 17px;
 }
 
-figcaption .credit{
+figcaption .credit {
   font-size: 14px;
   color: #888;
 }
 
-.bottom-of-article{
+.bottom-of-article {
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
   margin: 0px auto 1em;
 }
 
-.bottom-of-article a{
+.bottom-of-article a {
   color: inherit;
   text-decoration: underline;
 }
 
-.bottom-of-article a:hover{
+.bottom-of-article a:hover {
   text-decoration: none;
 }
 
-.read-comments{
+.read-comments {
   background-color: rgb(86, 123, 149);
   color: white;
   border-radius: 3px;
@@ -513,7 +559,7 @@ figcaption .credit{
 
 /* More News Section */
 
-.most-popular{
+.most-popular {
   width: 240px;
   margin-left: 30px;
   font-size: 1rem;
@@ -523,31 +569,31 @@ figcaption .credit{
   border-top: 1px solid rgb(0, 0, 0);
 }
 
-.most-popular h2{
+.most-popular h2 {
   margin-top: 0;
 }
 
-.news-titles h3{
+.news-titles h3 {
   border-bottom: 1px solid rgb(226, 226, 226);
   padding: 15px 0px;
 }
 
-.news-titles h3:last-child{
+.news-titles h3:last-child {
   border-bottom: none;
 }
 
-.news-titles h3 a{
+.news-titles h3 a {
   font-size: 1.1875rem;
   line-height: 1.4375rem;
   font-weight: 500;
   color: #121212;
 }
 
-.news-titles h3 a:hover{
+.news-titles h3 a:hover {
   color: rgb(102, 102, 102);
 }
 
-.more-news{
+.more-news {
   width: 1200px;
   margin-top: 45px;
   margin-left: auto;
@@ -555,65 +601,65 @@ figcaption .credit{
   padding: 20px 3% 0 3%;
 }
 
-.more-in-space-container{
+.more-in-space-container {
   width: 852px;
 }
 
-.more-in-title-container{
+.more-in-title-container {
   border-top: 1px solid rgb(0, 0, 0);
 }
 
-.more-in-title{
+.more-in-title {
   font-size: 1rem;
   line-height: 1.375rem;
   padding-top: 17px;
   font-weight: 900;
 }
 
-.more-in-title a{
+.more-in-title a {
   color: #000000;
 }
 
-.more-in-news-container{
+.more-in-news-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 15px;
 }
 
-.more-in-news-container .more{
+.more-in-news-container .more {
   width: 273px;
   padding-bottom: 20px;
 }
 
-.more figure{
+.more figure {
   width: 100%;
 }
 
-.more-in-news-container img{
+.more-in-news-container img {
   width: 273px;
   height: 182px;
 }
 
-.more figure figcaption{
+.more figure figcaption {
   margin-top: 3px;
   font-size: 0.625rem;
   padding-bottom: 4px;
   text-align: right;
 }
 
-.more .title-news{
+.more .title-news {
   padding-right: 10px;
   font-size: 1.125rem;
   line-height: 22px;
   color: #121212;
 }
 
-.title-news:hover{
+.title-news:hover {
   color: rgb(102, 102, 102);
 }
 
-.more .news-time{
+.more .news-time {
   font-weight: 500;
   font-size: 0.75rem;
   line-height: 1.25rem;
@@ -753,23 +799,23 @@ figcaption .credit{
   padding-bottom: 45px;
 }
 
-.footer-list{
+.footer-list {
   margin: 0 0 30px;
 }
 
-.footer-list li{
+.footer-list li {
   display: inline-block;
   line-height: 20px;
   padding: 0 10px;
 }
 
-.footer-list li a{
+.footer-list li a {
   color: #666;
   padding: 10px 0;
   white-space: nowrap;
 }
 
-.create-account-bar{
+.create-account-bar {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -780,20 +826,20 @@ figcaption .credit{
   text-align: center;
 }
 
-.create-account-text{
+.create-account-text {
   padding: 18px 20px;
   margin: 0 auto;
   width: 1200px;
   color: #000000;
 }
 
-.create-account-text svg{
+.create-account-text svg {
   transform: rotate(-90deg);
   margin-left: 30px;
   margin-bottom: -2px;
 }
 
-.create-account-text span:last-child{
+.create-account-text span:last-child {
   float: right;
   font-size: 11.6px;
   font-family: sans-serif;
