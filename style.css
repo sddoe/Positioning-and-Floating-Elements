@@ -71,10 +71,6 @@ video {
   max-width: 100%;
 }
 
-iframe {
-  border: 0;
-}
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -115,7 +111,8 @@ nav {
   padding: 4px 15px 2px;
 }
 
-.fa-bars, .fa-search {
+.fa-bars,
+.fa-search {
   border-radius: 3px;
   cursor: pointer;
   background-color: #fff;
@@ -169,7 +166,8 @@ nav {
   justify-content: space-around;
 }
 
-.subscribe-button, .login-button {
+.subscribe-button,
+.login-button {
   border-radius: 3px;
   cursor: pointer;
   background-color: #567b95;
@@ -331,7 +329,12 @@ header {
   padding: 10px 0;
 }
 
-.fb-button, .twitter-button, .mail-button, .more-share-button, .bookmark-button, .comments-button {
+.fb-button,
+.twitter-button,
+.mail-button,
+.more-share-button,
+.bookmark-button,
+.comments-button {
   display: inline-block;
   vertical-align: middle;
   background-color: #eee;
@@ -342,7 +345,12 @@ header {
   height: 25px;
 }
 
-.fa-facebook, .fa-twitter, .fa-envelope-square, .fa-share, .fa-bookmark, .fa-comment-alt {
+.fa-facebook,
+.fa-twitter,
+.fa-envelope-square,
+.fa-share,
+.fa-bookmark,
+.fa-comment-alt {
   font-size: 1.2rem;
 }
 
@@ -547,6 +555,7 @@ footer {
 iframe {
   width: 600px;
   height: 357.5px;
+  border: 0;
 }
 
 article figure {
@@ -557,10 +566,6 @@ article figure {
 article .video {
   margin: 0 auto;
   width: 600px;
-}
-
-iframe {
-  border: none;
 }
 
 article figure figcaption {
@@ -807,10 +812,6 @@ figcaption .credit {
   line-height: 14px;
 }
 
-.article-ending li a:hover {
-  text-decoration: underline;
-}
-
 .lang {
   border-top: 1px solid #e2e2e2;
   margin-top: 2px;
@@ -885,6 +886,10 @@ figcaption .credit {
 
 .bottom-of-article a:hover {
   text-decoration: none;
+}
+
+.article-ending li a:hover {
+  text-decoration: underline;
 }
 
 .news-titles h3 a:hover {
